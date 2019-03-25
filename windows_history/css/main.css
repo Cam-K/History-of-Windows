@@ -1,0 +1,129 @@
+
+
+body { /* selects the html body to change the style */
+
+
+	background-image: url(../images/bliss.jpg); /*changes the background to an image of the entire body */
+
+}
+
+
+h1 { /* selecting just the h1 tag */
+
+	font-size: 28pt; /* changing the font size to 28 point */
+	text-align:center; /* aligning the headers on the center of the website */
+
+}
+
+
+h2 {
+	font-size: 16pt;
+	text-align: center;
+	padding-top: 10px; /*adding some padding to the top of h2's. padding extends the space INSIDE the element */
+
+
+}
+
+h3 {
+	font-size: 14pt;
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+#container { /* # targets an id. an id is only used once and you can assign id's to specific html elements to give them a specific style */
+
+	background-color: #008080; /*  changing the background color to teal. setting red to 0, blue to 80, and green to 80 */
+	margin-left: auto; /*margin left auto and margin right auto centers our div tag */
+	margin-right: auto;
+
+	width: 641px; /* width and height change the size of the div */
+	height: 480px;
+	background-image: url(../images/notepad.png);
+	background-repeat: no-repeat; /* this makes it so that the background image does not repeat code from: https://www.w3schools.com/cssref/pr_background-repeat.asp*/
+
+
+}
+
+
+
+#taskbar { /* this targets the windows task bar which is stylized as our website navitation */
+	background-color: #008080;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 641px;
+
+}
+
+
+#page1 a:active { /*this targets the page1 id so that when the image is clicked (which is an image) it changes the image so that it looks like as if it is being pressed */
+	content:url(../images/startpressed.png); /* code is from: https://stackoverflow.com/questions/17705768/is-it-possible-to-change-img-src-attribute-using-css */
+
+}
+
+#page2 a:active {
+	content:url(../images/page2pressed.png);
+
+}
+
+#page3 a:active {
+	content:url(../images/page3pressed.png);
+
+}
+
+#page4 a:active {
+	content:url(../images/page4pressed.png);
+
+}
+
+#page5 a:active {
+	content:url(../images/page5pressed.png);
+}
+
+#content { /* targets the actual styling of the content of our website */
+	padding-top: 40px;
+	margin-left: auto;
+	padding-left: 110px;
+	margin-right: auto;
+	width: 500px;
+
+
+}
+
+
+#windowsReleases { /* centers the table on the "History" page that lists all the windows releases */
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#windowsReleases li { /*targets the specific list data so that the letters are not to close together */
+	padding: 2px;
+	padding-left: 5px;
+
+}
+
+
+		/* classes can be used multiple times and is used to style multiple html elements */
+		/*makes image shift to the left */
+.imageleft {
+			float: left;
+			margin-right: 20px;
+}
+		/*makes image shift to the right*/
+.imageright {
+			float: right;
+			margin-left: 20px;
+
+}
+
+/* centers the image on the website code from: https://www.w3schools.com/css/css_align.asp*/
+.imagecenter {
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
